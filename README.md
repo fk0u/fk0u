@@ -1,20 +1,10 @@
-<!-- ANIMATED HEADER WITH MINIMAL CSS -->
-<div align="center">
-
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+KOU+%F0%9F%91%8B;Full-Stack+Dev+%2B+AI+Builder;Building+beautiful+web+apps+from+Samarinda+%F0%9F%87%AE%F0%9F%87%A9)
 
-</div>
-
----
-
-
-
 <div align="center">
-
+  
 # Al-Ghani Desta Setyawan (KOU)
 
-**17 y/o | Full-Stack Developer | Samarinda, Indonesia**
-
+**17 y/o | Full-Stack Developer | Samarinda, Indonesia**  
 Building clean, beautiful, and production-ready web applications.
 
 [![GitHub followers](https://img.shields.io/github/followers/fk0u?label=Followers&style=for-the-badge&color=00D4FF)](https://github.com/fk0u?tab=followers)
@@ -49,7 +39,6 @@ Currently interning at **PT Duta Meta Graha** as a full-stack web developer. I'm
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=fff)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=fff)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=fff)
 
 **Frameworks & UI:**
 
@@ -68,7 +57,6 @@ Currently interning at **PT Duta Meta Graha** as a full-stack web developer. I'm
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=fff)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=fff)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=fff)
 
 ---
 
@@ -76,17 +64,21 @@ Currently interning at **PT Duta Meta Graha** as a full-stack web developer. I'm
 
 <div align="center">
 
-### Contributions & Activity
+**Contribution Streak & Activity**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fk0u&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fk0u&theme=radical&hide_border=true&background=0D1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fk0u&layout=compact&theme=radical&hide_border=true)
+**Most Used Languages**
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fk0u&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fk0u&layout=donut&theme=radical&hide_border=true&bg_color=0D1117)
 
-### Activity Graph
+**Repository Stats**
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=fk0u&theme=radical&hide_border=true)](https://github.com/ashutosh00210/github-readme-activity-graph)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=fk0u&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true)
+
+**Contribution Graph**
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fk0u&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/ashutosh00210/github-readme-activity-graph)
 
 </div>
 
@@ -94,54 +86,53 @@ Currently interning at **PT Duta Meta Graha** as a full-stack web developer. I'm
 
 ## 🚀 Featured Projects
 
-### Underlink – Smart Link Manager [Under Development]
-Minimal, modern link hub dengan smooth animations dan best UX.  
+### 💡 Underlink
+Smart link manager dengan smooth animations dan beautiful UX.  
 **Tech:** Next.js, Tailwind CSS, PostgreSQL  
-**[👉 View Repository](https://github.com/fk0u/underlink)**
+**[View](https://github.com/fk0u/underlink)** · **[Demo](https://underlinkapp.vercel.app)**
 
-### SIMA – Semakmur AI Assistant
-AI agent untuk bantu UMKM Indonesia reach global market. Multi-bahasa, cloud-ready.  
-**Tech:** Next.js, Python, Anthropic Claude API, DigitalOcean  
-**[👉 View Repository](https://github.com/fk0u/sima)**
+### 🤖 SIMA – Semakmur AI Assistant  
+AI agent untuk bantu UMKM Indonesia reach global market.  
+**Tech:** Next.js, Python, Claude API, DigitalOcean  
+**[View](https://github.com/fk0u/sima)**
 
-### Semakmur Company Profile Web
-Complete front-end rework untuk export marketplace.  
+### 🏪 Semakmur Company Profile Web
+Complete front-end rework untuk export marketplace (Intern Project).  
 **Tech:** Laravel, Inertia.js, React, Tailwind CSS  
-**[👉 View Repository](https://github.com/fk0u/compro-semakmur)**
+**[View](https://github.com/fk0u/compro-semakmur)**
 
-**[View all projects →](https://github.com/fk0u?tab=repositories)**
+**[👉 View All Projects](https://github.com/fk0u?tab=repositories)**
 
 ---
 
 ## 📜 Certifications & Learning
 
-Semua sertifikat, activity, dan learning log tersimpan di LinkedIn (always updated):
+Semua sertifikat, activity, dan learning log tersimpan di **LinkedIn** (always updated):
 
-### 📎 **[linkedin.com/in/alghani](https://linkedin.com/in/alghani)**
+### 🔗 **[linkedin.com/in/alghani](https://linkedin.com/in/alghani)**
 
 **Recent Learning:**
-- Dicoding: Web Development, Android/Kotlin
-- Coursera: Multiple specializations
-- CTF Competitions: Ongoing jeopardy-style challenges
-- AI-Assisted Development: Exploring agents & LLM integration
+- ✅ Web Development & Full-Stack (Dicoding)
+- ✅ Android/Kotlin Development (Coursera)
+- ✅ CTF & Cybersecurity Competitions
+- 🔄 AI-Assisted Development & LLM Integration
 
 ---
 
-## 🎯 Current Skills Matrix
+## 🎯 Skills Matrix
 
-| Skill | Level | Experience |
-|-------|-------|------------|
-| **Full-Stack Web Dev** | ⭐⭐⭐⭐⭐ | 2+ years |
-| **Next.js & React** | ⭐⭐⭐⭐⭐ | 1.5+ years |
-| **Laravel & Backend** | ⭐⭐⭐⭐ | 1+ years |
-| **DevOps & Deployment** | ⭐⭐⭐⭐ | 1+ years |
+| Skill | Level | Years |
+|-------|-------|-------|
+| **Full-Stack Web Dev** | ⭐⭐⭐⭐⭐ | 2+ |
+| **Next.js & React** | ⭐⭐⭐⭐⭐ | 1.5+ |
+| **Laravel Backend** | ⭐⭐⭐⭐ | 1+ |
+| **DevOps & Deployment** | ⭐⭐⭐⭐ | 1+ |
 | **UI/UX Implementation** | ⭐⭐⭐⭐ | Ongoing |
-| **Cybersecurity & CTF** | ⭐⭐⭐⭐ | 1+ years |
-| **Music Production** | ⭐⭐⭐ | Hobby |
+| **CTF & Security** | ⭐⭐⭐⭐ | 1+ |
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Connect
 
 <div align="center">
 
@@ -149,8 +140,7 @@ Semua sertifikat, activity, dan learning log tersimpan di LinkedIn (always updat
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fk0u)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://kou.it.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kou.sozo)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kou_sozo)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alghani.desta@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kou.real@outlook.com)
 
 </div>
 
