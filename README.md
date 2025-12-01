@@ -123,11 +123,11 @@ Semua sertifikat, activity, dan learning log tersimpan di **LinkedIn** (always u
 
 | Skill | Level | Years |
 |-------|-------|-------|
-| **Full-Stack Web Dev** | ⭐⭐⭐⭐⭐ | 2+ |
+| **Full-Stack Web Dev** | ⭐⭐⭐⭐⭐ | 3+ |
 | **Next.js & React** | ⭐⭐⭐⭐⭐ | 1.5+ |
 | **Laravel Backend** | ⭐⭐⭐⭐ | 1+ |
 | **DevOps & Deployment** | ⭐⭐⭐⭐ | 1+ |
-| **UI/UX Implementation** | ⭐⭐⭐⭐ | Ongoing |
+| **UI/UX Implementation** | ⭐⭐⭐⭐ | 2+ |
 | **CTF & Security** | ⭐⭐⭐⭐ | 1+ |
 
 ---
