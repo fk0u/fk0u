@@ -17,7 +17,7 @@ Building clean, beautiful, and production-ready web applications.
 
 ## 👨‍💻 About Me
 
-Currently interning at **PT Duta Meta Graha** as a software engineer. I'm passionate about:
+Ex intern at **PT Duta Meta Graha** as a software engineer. I'm passionate about:
 
 - 🎨 Building UX-first web applications
 - 🔧 Full-stack development (Next.js, Laravel, React)
