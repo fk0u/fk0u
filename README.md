@@ -4,7 +4,7 @@
   
 # Al-Ghani Desta Setyawan (KOU)
 
-**17 y/o | Full-Stack Developer | Samarinda, Indonesia**  
+**15 y/o | Full-Stack Developer | Samarinda, Indonesia**  
 Building clean, beautiful, and production-ready web applications.
 
 [![GitHub followers](https://img.shields.io/github/followers/fk0u?label=Followers&style=for-the-badge&color=00D4FF)](https://github.com/fk0u?tab=followers)
