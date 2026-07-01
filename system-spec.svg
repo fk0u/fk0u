@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="210" fill="none">
+  <defs>
+    <linearGradient id="specBorder" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="50%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#00FF66"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg-panel {
+      fill: #04050A;
+      stroke: url(#specBorder);
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .sect-title {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 11px;
+      font-weight: bold;
+      fill: #475569;
+      letter-spacing: 2px;
+    }
+    .swatch-label {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 11px;
+      fill: #E2E8F0;
+      font-weight: bold;
+    }
+    .swatch-hex {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 10px;
+      fill: #64748B;
+    }
+    .rule-title {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 12px;
+      fill: #00FF66;
+      font-weight: bold;
+    }
+    .rule-desc {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 10px;
+      fill: #94A3B8;
+    }
+  </style>
+
+  <!-- Outline Panel -->
+  <rect x="1" y="1" width="798" height="208" rx="12" ry="12" class="bg-panel" />
+
+  <!-- Layout Grid Lines (Y2K / XG Grid) -->
+  <g opacity="0.04" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="35" x2="800" y2="35" />
+    <line x1="0" y1="120" x2="800" y2="120" />
+    <line x1="380" y1="0" x2="380" y2="210" stroke-width="1.5" />
+  </g>
+
+  <!-- ==================== LEFT AREA: COLOR SWATCHES ==================== -->
+  <text x="25" y="25" class="sect-title">SYSTEM TOKENS // PALETTE</text>
+
+  <!-- Swatch 1: Cyber Mint -->
+  <g transform="translate(25, 45)">
+    <rect width="32" height="32" rx="8" fill="#00FFA3" stroke="#FFFFFF" stroke-width="1" />
+    <text x="45" y="15" class="swatch-label">Tokki Mint</text>
+    <text x="45" y="28" class="swatch-hex">#00FFA3 (Primary Accent)</text>
+  </g>
+
+  <!-- Swatch 2: Cyber Pink -->
+  <g transform="translate(25, 90)">
+    <rect width="32" height="32" rx="8" fill="#FF007F" stroke="#FFFFFF" stroke-width="1" />
+    <text x="45" y="15" class="swatch-label">XG Cyber Pink</text>
+    <text x="45" y="28" class="swatch-hex">#FF007F (Secondary Accent)</text>
+  </g>
+
+  <!-- Swatch 3: Space Cyan -->
+  <g transform="translate(25, 135)">
+    <rect width="32" height="32" rx="8" fill="#00D4FF" stroke="#FFFFFF" stroke-width="1" />
+    <text x="45" y="15" class="swatch-label">Space Cyan</text>
+    <text x="45" y="28" class="swatch-hex">#00D4FF (Fluid Accent)</text>
+  </g>
+
+  <!-- ==================== RIGHT AREA: UX RULES ==================== -->
+  <text x="405" y="25" class="sect-title">UX ENGINE PROTOCOLS</text>
+
+  <!-- Protocol 1 -->
+  <g transform="translate(405, 45)">
+    <text x="0" y="15" class="rule-title">▶ APPLE-STYLE GLASSMORPHISM</text>
+    <text x="15" y="28" class="rule-desc">Liquid glass pane with backdrop-filter blur (20px)</text>
+  </g>
+
+  <!-- Protocol 2 -->
+  <g transform="translate(405, 95)">
+    <text x="0" y="15" class="rule-title">▶ SPRING PHYSICS ANIMATION</text>
+    <text x="15" y="28" class="rule-desc">Interactive motions calculated via Hooke's Law physics</text>
+  </g>
+
+  <!-- Protocol 3 -->
+  <g transform="translate(405, 145)">
+    <text x="0" y="15" class="rule-title">▶ GPU-ACCELERATED RENDER</text>
+    <text x="15" y="28" class="rule-desc">Hardware-assisted 3D transforms driving fluid 60fps</text>
+  </g>
+</svg>

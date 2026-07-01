@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 390" width="100%" height="390" fill="none">
+  <defs>
+    <!-- Glowing Neon Gradients -->
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF66"/>
+      <stop offset="40%" stop-color="#00D4FF"/>
+      <stop offset="85%" stop-color="#BD00FF"/>
+      <stop offset="100%" stop-color="#FF007F"/>
+    </linearGradient>
+    
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#7900FF"/>
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF66"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neon-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="neon-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-bg {
+      fill: #04050A;
+      stroke: url(#cyberGrad);
+      stroke-width: 2;
+      rx: 16px;
+    }
+    .header-bar {
+      fill: #0A0D1A;
+    }
+    .text-title {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 11px;
+      font-weight: bold;
+      fill: #E2E8F0;
+      letter-spacing: 2px;
+    }
+    .text-label {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 11px;
+      fill: #64748B;
+    }
+    .text-value {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 12px;
+      fill: #00FF66;
+      font-weight: bold;
+    }
+    .text-code {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 12px;
+      fill: #94A3B8;
+    }
+    .cyber-star {
+      fill: #00D4FF;
+      opacity: 0.8;
+    }
+    .eq-bar {
+      width: 4px;
+      rx: 2px;
+    }
+    .pulsate {
+      animation: pulse 2s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Glowing outer boundary -->
+  <rect x="2" y="2" width="796" height="386" rx="16" ry="16" class="terminal-bg" style="filter: drop-shadow(0 0 15px rgba(0, 255, 102, 0.15));" />
+
+  <!-- Grid Pattern Overlay for Cyber/XG vibe -->
+  <g opacity="0.05">
+    <path d="M 0 40 L 800 40 M 0 80 L 800 80 M 0 120 L 800 120 M 0 160 L 800 160 M 0 200 L 800 200 M 0 240 L 800 240 M 0 280 L 800 280 M 0 320 L 800 320 M 0 360 L 800 360" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 50 0 L 50 390 M 100 0 L 100 390 M 150 0 L 150 390 M 200 0 L 200 390 M 250 0 L 250 390 M 300 0 L 300 390 M 350 0 L 350 390 M 400 0 L 400 390 M 450 0 L 450 390 M 500 0 L 500 390 M 550 0 L 550 390 M 600 0 L 600 390 M 650 0 L 650 390 M 700 0 L 700 390 M 750 0 L 750 390" stroke="#FFFFFF" stroke-width="1" />
+  </g>
+
+  <!-- Header Bar -->
+  <path d="M 16 2 h 768 a 14 14 0 0 1 14 14 v 24 h -796 v -24 a 14 14 0 0 1 14 -14 z" class="header-bar" />
+  
+  <!-- Retro Windows/Gameboy Style Window buttons (XG styling) -->
+  <rect x="20" y="14" width="12" height="12" rx="2" fill="none" stroke="#FF007F" stroke-width="1.5"/>
+  <line x1="23" y1="20" x2="29" y2="20" stroke="#FF007F" stroke-width="1.5"/>
+  
+  <rect x="38" y="14" width="12" height="12" rx="2" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+  <rect x="41" y="17" width="6" height="6" fill="#00D4FF"/>
+
+  <rect x="56" y="14" width="12" height="12" rx="2" fill="none" stroke="#00FF66" stroke-width="1.5"/>
+  <line x1="59" y1="17" x2="65" y2="23" stroke="#00FF66" stroke-width="1.5"/>
+  <line x1="65" y1="17" x2="59" y2="23" stroke="#00FF66" stroke-width="1.5"/>
+
+  <!-- Center Title: Cyberpunk OS name -->
+  <text x="400" y="26" class="text-title" text-anchor="middle">[ XG-XGENE // TOKKI-OS v8.0 ]</text>
+
+  <!-- Sound/Active Waves visualizer in Title (Rave theme) -->
+  <g transform="translate(680, 12)">
+    <rect x="0" y="6" class="eq-bar" fill="#FF007F"><animate attributeName="height" values="4;16;6;4" dur="0.8s" repeatCount="indefinite"/><animate attributeName="y" values="12;0;10;12" dur="0.8s" repeatCount="indefinite"/></rect>
+    <rect x="7" y="3" class="eq-bar" fill="#00FF66"><animate attributeName="height" values="8;20;12;8" dur="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="14;2;10;14" dur="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="14" y="8" class="eq-bar" fill="#00D4FF"><animate attributeName="height" values="2;14;8;2" dur="0.7s" repeatCount="indefinite"/><animate attributeName="y" values="16;4;10;16" dur="0.7s" repeatCount="indefinite"/></rect>
+    <rect x="21" y="5" class="eq-bar" fill="#FDE047"><animate attributeName="height" values="6;18;4;6" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="12;0;14;12" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Sidebar Split Line -->
+  <line x1="240" y1="40" x2="240" y2="390" stroke="#101726" stroke-width="2" />
+  
+  <!-- ==================== LEFT PANE (NewJeans & XG Visuals) ==================== -->
+  <!-- Audio Station Status -->
+  <text x="25" y="70" class="text-label" letter-spacing="1">AUDIO STATION:</text>
+  <text x="130" y="70" class="text-value" style="fill: #FF007F; filter: url(#neon-pink);">PLAYING</text>
+  
+  <!-- Track Info Widget -->
+  <rect x="20" y="85" width="200" height="50" rx="8" fill="#0E1224" stroke="#1E293B" stroke-width="1"/>
+  <text x="32" y="105" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E2E8F0" font-weight="bold">TRACK_01: HYPNOTIZE</text>
+  <text x="32" y="123" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00FFA3">Remix x Cool With You (KOU Edit)</text>
+  <path d="M 185 105 L 195 110 L 185 115 Z" fill="#00FFA3">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Custom Cyber Geometric Bunny (NewJeans Tokki + XG Alien Theme) -->
+  <g transform="translate(45, 155)" style="filter: drop-shadow(0 0 8px rgba(0, 255, 102, 0.2));">
+    <!-- Outer Hologram Ring -->
+    <circle cx="75" cy="85" r="50" fill="none" stroke="url(#cyberGrad)" stroke-width="1.5" stroke-dasharray="10 6" class="pulsate">
+      <animateTransform attributeName="transform" type="rotate" from="0 75 85" to="360 75 85" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Geometric Bunny Head Path -->
+    <!-- Left Ear -->
+    <path d="M 50 85 L 35 15 L 55 45 Z" fill="url(#pinkGrad)" opacity="0.85" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Right Ear -->
+    <path d="M 100 85 L 115 15 L 95 45 Z" fill="url(#pinkGrad)" opacity="0.85" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Face Structure -->
+    <polygon points="50,85 100,85 75,125" fill="url(#greenGrad)" opacity="0.9" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Cybernetic Eye slots -->
+    <line x1="60" y1="95" x2="70" y2="95" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="95" x2="80" y2="95" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    <!-- Tech Star Badge on forehead -->
+    <path d="M 75 70 L 77 75 L 82 75 L 78 78 L 80 83 L 75 80 L 70 83 L 72 78 L 68 75 L 73 75 Z" fill="#FDE047"/>
+  </g>
+  
+  <!-- Custom Cyber Decors (Floating Stars) -->
+  <!-- Star 1 -->
+  <path d="M 30 290 L 32 295 L 37 295 L 33 298 L 35 303 L 30 300 L 25 303 L 27 298 L 23 295 L 28 295 Z" class="cyber-star">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <!-- Star 2 (Pink) -->
+  <path d="M 205 170 L 207 175 L 212 175 L 208 178 L 210 183 L 205 180 L 200 183 L 202 178 L 198 175 L 203 175 Z" fill="#FF007F">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Custom Y2K Label Tag -->
+  <rect x="25" y="325" width="190" height="40" rx="8" fill="#0E1224" stroke="url(#cyberGrad)" stroke-width="1"/>
+  <text x="35" y="342" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00FF66" font-weight="bold">SUB_SYSTEM: ACTIVE</text>
+  <text x="35" y="356" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748B">ALPHABEAT // 2026 EDITION</text>
+
+  <!-- ==================== RIGHT PANE (Code & Core Specs) ==================== -->
+  <!-- Editor Tabs -->
+  <rect x="240" y="40" width="560" height="32" fill="#0A0D1A" />
+  <rect x="250" y="44" width="150" height="28" rx="6" fill="#04050A" stroke="#1E293B" stroke-width="1" />
+  <circle cx="265" cy="58" r="4" fill="#FF007F" />
+  <text x="278" y="62" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E2E8F0" font-weight="bold">XGENE_MANIFEST.ts</text>
+  <text x="382" y="61" fill="#475569" font-family="sans-serif" font-size="11">×</text>
+  
+  <line x1="240" y1="72" x2="800" y2="72" stroke="#101726" stroke-width="2" />
+
+  <!-- Code Area Content -->
+  <g class="text-code" transform="translate(255, 75)">
+    <!-- Line numbers -->
+    <g fill="#27344D">
+      <text x="15" y="25" text-anchor="end">1</text>
+      <text x="15" y="47" text-anchor="end">2</text>
+      <text x="15" y="69" text-anchor="end">3</text>
+      <text x="15" y="91" text-anchor="end">4</text>
+      <text x="15" y="113" text-anchor="end">5</text>
+      <text x="15" y="135" text-anchor="end">6</text>
+      <text x="15" y="157" text-anchor="end">7</text>
+      <text x="15" y="179" text-anchor="end">8</text>
+      <text x="15" y="201" text-anchor="end">9</text>
+      <text x="15" y="223" text-anchor="end">10</text>
+      <text x="15" y="245" text-anchor="end">11</text>
+      <text x="15" y="267" text-anchor="end">12</text>
+      <text x="15" y="289" text-anchor="end">13</text>
+    </g>
+
+    <!-- Source Code lines -->
+    <text x="35" y="25"><tspan fill="#FF007F">import</tspan> { <tspan fill="#00D4FF">XGeneEngine</tspan>, <tspan fill="#00D4FF">TokkiUX</tspan> } <tspan fill="#FF007F">from</tspan> <tspan fill="#00FF66">"space-cyber-pop"</tspan>;</text>
+    
+    <text x="35" y="47"><tspan fill="#FF007F">const</tspan> <tspan fill="#FDE047">KouProfile</tspan> = <tspan fill="#FF007F">new</tspan> <tspan fill="#00D4FF">XGeneEngine</tspan>({</text>
+    <text x="55" y="69">artistName: <tspan fill="#00FF66">"Al-Ghani Desta Setyawan (KOU)"</tspan>,</text>
+    <text x="55" y="91">aesthetic: <tspan fill="#00FF66">"Y2K Futuristic Retro &amp; Neon Rave"</tspan>,</text>
+    <text x="55" y="113">creativeMantra: <tspan fill="#00FF66">"Vibrant UX + High-Octane Code"</tspan>,</text>
+    
+    <text x="55" y="135">architectures: {</text>
+    <text x="75" y="157">frontend: [<tspan fill="#00FF66">"Next.js 16"</tspan>, <tspan fill="#00FF66">"React 19"</tspan>, <tspan fill="#00FF66">"Tailwind 4"</tspan>],</text>
+    <text x="75" y="179">mobile: [<tspan fill="#00FF66">"Flutter (Dart)"</tspan>, <tspan fill="#00FF66">"Kotlin"</tspan>],</text>
+    <text x="75" y="201">backend: [<tspan fill="#00FF66">"Laravel 12"</tspan>, <tspan fill="#00FF66">"Bun"</tspan>, <tspan fill="#00FF66">"Supabase"</tspan>]</text>
+    <text x="55" y="223">},</text>
+    
+    <text x="55" y="245">impactMetrics: {</text>
+    <text x="75" y="267">totalProjects: <tspan fill="#FDE047">250</tspan>, <tspan fill="#64748B">// Client + Personal</tspan></text>
+    <text x="75" y="289">internshipPerformance: <tspan fill="#00FF66">"100/100 @ PT Duta Meta Graha"</tspan></text>
+    <text x="55" y="311">}</text>
+    <text x="35" y="333">});</text>
+  </g>
+
+  <!-- Custom Neon Glow Line below code -->
+  <line x1="285" y1="365" x2="750" y2="365" stroke="url(#greenGrad)" stroke-width="1.5" stroke-dasharray="2 8" />
+  
+  <!-- Active Blink cursor on line 13 -->
+  <rect x="235" y="393" width="8" height="15" fill="#FF007F" transform="translate(145, 0)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="100%" height="140" fill="none">
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="neon-glow-mint" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="neon-glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="50%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#00FF66"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg-panel {
+      fill: #04050A;
+      stroke: #101726;
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .metric-val {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 32px;
+      font-weight: 900;
+      letter-spacing: -1px;
+    }
+    .metric-label {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 10px;
+      fill: #64748B;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+    .metric-desc {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 9px;
+      fill: #475569;
+    }
+    .divider {
+      stroke: #1E293B;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Glowing panel border -->
+  <rect x="1" y="1" width="798" height="138" rx="12" ry="12" class="bg-panel" stroke="url(#panelGrad)" />
+
+  <!-- Subtle mesh grid overlay -->
+  <g opacity="0.03">
+    <path d="M 0 20 H 800 M 0 40 H 800 M 0 60 H 800 M 0 80 H 800 M 0 100 H 800 M 0 120 H 800" stroke="#FFFFFF" />
+    <path d="M 100 0 V 140 M 200 0 V 140 M 300 0 V 140 M 400 0 V 140 M 500 0 V 140 M 600 0 V 140 M 700 0 V 140" stroke="#FFFFFF" />
+  </g>
+
+  <!-- Col 1: Client Projects -->
+  <g transform="translate(0, 0)">
+    <text x="100" y="55" fill="#00FF66" class="metric-val" text-anchor="middle" style="filter: url(#neon-glow-mint);">50+</text>
+    <text x="100" y="80" class="metric-label" text-anchor="middle">CLIENT DECK</text>
+    <text x="100" y="100" class="metric-desc" text-anchor="middle">SaaS &amp; Business Systems Shipped</text>
+  </g>
+
+  <line x1="200" y1="20" x2="200" y2="120" class="divider" />
+
+  <!-- Col 2: Total Projects -->
+  <g transform="translate(200, 0)">
+    <text x="100" y="55" fill="#00D4FF" class="metric-val" text-anchor="middle" style="filter: url(#neon-glow-mint);">250+</text>
+    <text x="100" y="80" class="metric-label" text-anchor="middle">TOTAL CODEBASE</text>
+    <text x="100" y="100" class="metric-desc" text-anchor="middle">Personal Sandbox &amp; Open Source</text>
+  </g>
+
+  <line x1="400" y1="20" x2="400" y2="120" class="divider" />
+
+  <!-- Col 3: Certifications -->
+  <g transform="translate(400, 0)">
+    <text x="100" y="55" fill="#FF007F" class="metric-val" text-anchor="middle" style="filter: url(#neon-glow-pink);">40+</text>
+    <text x="100" y="80" class="metric-label" text-anchor="middle">CREDENTIALS</text>
+    <text x="100" y="100" class="metric-desc" text-anchor="middle">AWS, Google, Meta, IBM Badges</text>
+  </g>
+
+  <line x1="600" y1="20" x2="600" y2="120" class="divider" />
+
+  <!-- Col 4: Experience -->
+  <g transform="translate(600, 0)">
+    <text x="100" y="55" fill="#FDE047" class="metric-val" text-anchor="middle" style="filter: url(#neon-glow-pink);">5+</text>
+    <text x="100" y="80" class="metric-label" text-anchor="middle">YEARS JOURNEY</text>
+    <text x="100" y="100" class="metric-desc" text-anchor="middle">Active Engineering Since 2021</text>
+  </g>
+  
+  <!-- Mini status light at the top right -->
+  <circle cx="780" cy="15" r="4" fill="#00FF66">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <text x="770" y="18" font-family="monospace" font-size="8" fill="#475569" text-anchor="end">SYS SYNCED</text>
+</svg>
