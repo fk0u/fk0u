@@ -110,7 +110,7 @@
     <text x="0" y="32" class="text-title">NOW PLAYING // KOU STUDIO ROTATIONS</text>
     
     <!-- Track & Artist Info -->
-    <text x="0" y="55" class="track-title">HYPNOTIZE (KOU Remix) x Cool With You</text>
+    <text x="0" y="55" class="track-title">HYPNOTIZE x Cool With You</text>
     <text x="0" y="73" class="track-artist">XG × NewJeans</text>
     
     <!-- Animating Playback Progress Bar -->
