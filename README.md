@@ -14,6 +14,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/fk0u?label=Followers&style=for-the-badge&color=00FFA3&labelColor=0A0D1A)](https://github.com/fk0u?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/fk0u?affiliations=OWNER&style=for-the-badge&color=FF007F&labelColor=0A0D1A)](https://github.com/fk0u)
 ![Profile views](https://komarev.com/ghpvc/?username=fk0u&style=for-the-badge&color=00D4FF&labelColor=0A0D1A)
+![Last Played Music](https://badges.lastfm.workers.dev/last-played?user=kousozo&style=for-the-badge)
 
 <br/>
 <br/>
